@@ -1,0 +1,126 @@
+/*
+Syntax for CSS
+
+Selector {
+	property: value;
+}
+
+
+*/
+/* in CSS we have SPECIFICITY RULE 
+Higher Priority(Id)
+(Class)
+(Element)
+Least Priority(Universal)
+
+
+*/
+
+/* Universal Selector */
+* { 
+	font-family: "Roboto", sans-serif;
+}
+
+/* Element Selector */
+h1, h2 {
+	font-family: "Montserrat", sans-serif;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+}
+
+/*Id Selector*/
+#landing {
+	/*viewheight*/
+	height: 80vh;
+	/*flexible responsive layouts from left to right*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#gallery {
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+/*Class Selector*/
+.tools {
+	border: 5px solid #f2f2f2;
+	height: 200px;
+	width:  75%;
+	margin: 20px;
+	padding: 25px;
+}
+
+
+h2 {
+	color: #007bff;
+}
+
+
+/*
+
+Bootstrap spaces
+
+m => margin
+p => padding
+
+t => top
+s => for start or left
+e => for end or right
+b => bottom
+
+x => x-axis
+y => y-axis
+
+1-5 or auto
+
+
+mx-auto
+
+
+bg-warning
+
+primary - blue
+secondary - gray
+warning - yellow
+danger - red
+info - light blue
+success - green
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
